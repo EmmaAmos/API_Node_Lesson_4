@@ -27,14 +27,14 @@ DELETE http://localhost:8080/contacts/6220b775099269ff7b31ceab HTTP/1.1
 
 // PRODUCTION Deploy ### 
 Get all contacts 
-GET https://nodelesson4.herokuapp.com/contacts
+GET https://cse341-instructor.herokuapp.com/contacts
 
 ### 
 Get contact by id 
-GET https://nodelesson4.herokuapp.com/contacts/622023f642f9ab4cd6e060b3
+GET https://cse341-instructor.herokuapp.com/contacts/622023f642f9ab4cd6e060b3
 
 ### Create contact 
-POST https://nodelesson4.herokuapp.com/contacts HTTP/1.1 content-type: application/json
+POST https://cse341-instructor.herokuapp.com/contacts HTTP/1.1 content-type: application/json
 
 {
 "firstName":"Ashley", "lastName":"Weaver", "email":"aWeaver@test.com", "favoriteColor":"Brown", "birthday":"06/19/2000"
@@ -42,11 +42,11 @@ POST https://nodelesson4.herokuapp.com/contacts HTTP/1.1 content-type: applicati
 
 ### 
 PUT contact 
-PUT https://nodelesson4.herokuapp.com/contacts/6220bcb39cd507e920c75a0b HTTP/1.1 content-type: application/json
+PUT https://cse341-instructor.herokuapp.com/contacts/6220bcb39cd507e920c75a0b HTTP/1.1 content-type: application/json
 
 {
 "firstName":"Sarah", "lastName":"Birch", "email":"sarahB@gmail.com", "favoriteColor":"Yellow", "birthday":"06/12/20"
 }
 
 ### 
-DELETE contact DELETE https://nodelesson4.herokuapp.com/contacts/6220e34083149913680f9a64 HTTP/1.1
+DELETE contact DELETE https://cse341-instructor.herokuapp.com/contacts/6220e34083149913680f9a64 HTTP/1.1
