@@ -17,7 +17,7 @@ mongodb.initDb((err) => {
   if (err) {
     console.log(err);
   } else {
-    app.listen(port);
+    app.listen(port, '0.0.0.0');
     console.log(`Connected to DB and listening on ${port}`);
   }
 });
